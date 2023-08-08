@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Comece agora
-      link: /
+      link: /introduction
     - theme: alt
       text: Veja no Github
       link: /
