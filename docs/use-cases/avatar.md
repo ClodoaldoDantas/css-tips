@@ -1,40 +1,41 @@
 # Avatar
 
-O truque para criar um componente de avatar é definir com que o elemento possua as mesmas dimensões de altura e largura, e em seguida definir a propriedade `border-radius` com o valor de 50%.
+O truque para criar um componente de avatar é definir com que o elemento pai possua as mesmas dimensões de altura e largura, e em seguida definir a propriedade `border-radius` com o valor de 50%.
 
 ## Exemplo de Código
 
 ```html
-<!-- Utilizando uma imagem -->
-<img
-  class="avatar-image"
-  src="https://github.com/clodoaldodantas.png"
-  alt="Clodoaldo Dantas"
-/>
+<!-- utilizando com uma imagem -->
+<div class="avatar-container">
+  <img
+    class="avatar-image"
+    src="https://github.com/clodoaldodantas.png"
+    alt="Clodoaldo Dantas"
+  />
+</div>
 
-<!-- Utilizando uma div -->
+<!-- Utilizando com a inicial do nome -->
 <div class="avatar-container">
   <span class="avatar-letter">C</span>
 </div>
 ```
 
-```css{2-4,8-10}
-.avatar-image {
-  height: 80px;
-  width: 80px;
-  border-radius: 50%;
-}
-
+```css{2-4}
 .avatar-container {
   height: 80px;
   width: 80px;
   border-radius: 50%;
   background: #2c3e50;
 
-  /* para centralizar a letra dentro do círculo */
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.avatar-image {
+  height: 100%;
+  width: 100%;
+  border-radius: inherit;
 }
 
 .avatar-letter {

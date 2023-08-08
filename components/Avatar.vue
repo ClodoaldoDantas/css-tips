@@ -8,27 +8,21 @@ const props = defineProps<Props>()
 </script>
 
 <template>
-  <img
-    v-if="props.source"
-    :class="$style['avatar-image']"
-    :src="props.source"
-    :alt="props.name"
-  />
+  <div :class="$style['avatar-container']">
+    <img
+      v-if="props.source"
+      :class="$style['avatar-image']"
+      :src="props.source"
+      :alt="props.name"
+    />
 
-  <div v-else :class="$style['avatar-container']">
-    <span :class="$style['avatar-letter']">
+    <span v-else :class="$style['avatar-letter']">
       {{ props.name.charAt(0) }}
     </span>
   </div>
 </template>
 
 <style module>
-.avatar-image {
-  height: 80px;
-  width: 80px;
-  border-radius: 50%;
-}
-
 .avatar-container {
   height: 80px;
   width: 80px;
@@ -38,6 +32,12 @@ const props = defineProps<Props>()
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.avatar-image {
+  height: 100%;
+  width: 100%;
+  border-radius: inherit;
 }
 
 .avatar-letter {
