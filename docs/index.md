@@ -2,6 +2,8 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
+titleTemplate: Eleve seu CSS
+
 hero:
   name: 'CSS Tips'
   text: 'Eleve seu CSS 🪄'
