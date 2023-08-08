@@ -28,22 +28,8 @@ Veja um exemplo abaixo sobre como centralizar um elemento utilizando **CSS Flexb
 
 ## Resultado
 
-<div :class="$style.container">
-  <div :class="$style.element">🦄</div>
-</div>
+<script setup>
+import Center from '../../components/Center.vue'
+</script>
 
-<style module>
-.container {
-  height: 200px;
-  width: 200px;
-  border: 2px dashed #10b981;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.element {
-  font-size: 32px;
-}
-</style>
+<Center method="flex" />

@@ -29,23 +29,8 @@ Veja um exemplo abaixo sobre como centralizar um elemento utilizando **CSS Posit
 
 ## Resultado
 
-<div :class="$style.container">
-  <div :class="$style.element">🦄</div>
-</div>
+<script setup>
+import Center from '../../components/Center.vue'
+</script>
 
-<style module>
-.container {
-  height: 200px;
-  width: 200px;
-  border: 2px dashed #10b981;
-  position: relative;
-}
-
-.element {
-  font-size: 2rem;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-</style>
+<Center method="position" />

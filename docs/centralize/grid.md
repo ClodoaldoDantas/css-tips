@@ -31,21 +31,8 @@ Veja um exemplo abaixo sobre como centralizar um elemento utilizando **CSS Grid:
 
 ## Resultado
 
-<div :class="$style.container">
-  <div :class="$style.element">🦄</div>
-</div>
+<script setup>
+import Center from '../../components/Center.vue'
+</script>
 
-<style module>
-.container {
-  height: 200px;
-  width: 200px;
-  border: 2px dashed #10b981;
-
-  display: grid;
-  place-items: center;
-}
-
-.element {
-  font-size: 32px;
-}
-</style>
+<Center method="grid" />
