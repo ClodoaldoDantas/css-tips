@@ -42,6 +42,7 @@ const props = defineProps<Props>()
 
 .avatar-letter {
   font-size: 2rem;
+  text-transform: uppercase;
   font-weight: bold;
 }
 </style>
