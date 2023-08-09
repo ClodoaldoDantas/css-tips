@@ -23,6 +23,10 @@ export default defineConfig({
         ],
       },
       {
+        text: 'Pseudo Classes',
+        items: [{ text: ':has()', link: '/pseudo-classes/has' }],
+      },
+      {
         text: 'Pseudo Elements',
         items: [{ text: '::marker', link: '/pseudo-elements/marker' }],
       },
