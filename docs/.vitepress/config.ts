@@ -3,8 +3,8 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'CSS Tips',
   description: 'Dicas e exemplos práticos para aprimorar seu design web.',
-  head: [['link', { rel: 'icon', href: './favicon.ico' }]],
   themeConfig: {
+    siteTitle: '🔮 CSS Tips',
     nav: [
       { text: 'Introdução', link: '/introduction' },
       { text: 'Exemplos', link: '/use-cases/avatar' },
@@ -27,7 +27,6 @@ export default defineConfig({
         items: [
           { text: 'Avatar', link: '/use-cases/avatar' },
           { text: 'Spinner', link: '/use-cases/spinner' },
-          { text: 'Status Indicator', link: '/use-cases/status-indicator' },
         ],
       },
     ],
