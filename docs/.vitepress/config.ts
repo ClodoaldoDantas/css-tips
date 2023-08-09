@@ -48,5 +48,13 @@ export default defineConfig({
     search: {
       provider: 'local',
     },
+    docFooter: {
+      prev: 'Página anterior',
+      next: 'Próxima página',
+    },
+    outline: {
+      label: 'Nesta página',
+    },
+    returnToTopLabel: 'Retornar ao topo',
   },
 })
