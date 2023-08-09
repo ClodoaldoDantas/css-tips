@@ -26,3 +26,7 @@ Nosso principal objetivo é simplificar o seu aprendizado com dicas práticas e 
 5. Execute o comando `npm run docs:dev` para iniciar o servidor de desenvolvimento.
 6. Acesse o projeto em seu navegador através do endereço `http://localhost:5173/`.
 7. Caso queria rodar os testes unitários, execute o comando `npm run test`.
+
+## 💪 Contribuição
+
+Faltou alguma informação ou melhoria no site? Então [abre uma issue](https://github.com/clodoaldodantas/css-tips/issues/new) e me avisa :hugs:
