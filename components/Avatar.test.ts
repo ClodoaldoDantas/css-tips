@@ -2,7 +2,7 @@ import { mount } from '@vue/test-utils'
 import { describe, expect, it } from 'vitest'
 import Avatar from './Avatar.vue'
 
-describe('Avatar', () => {
+describe('<Avatar />', () => {
   it('should render avatar image correctly', () => {
     const props = {
       source: 'https://github.com/clodoaldodantas.png',

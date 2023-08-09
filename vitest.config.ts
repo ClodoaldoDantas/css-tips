@@ -7,5 +7,10 @@ export default defineConfig({
   plugins: [Vue()],
   test: {
     environment: 'jsdom',
+    css: {
+      modules: {
+        classNameStrategy: 'non-scoped',
+      },
+    },
   },
 })
