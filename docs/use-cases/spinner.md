@@ -12,7 +12,7 @@ O truque para criar um componente de spinner com CSS é bastante simples, basta 
 .spinner {
   width: 48px;
   height: 48px;
-  border: 5px solid rgba(255, 255, 245, 0.859);
+  border: 5px solid rgba(255, 255, 245, 0.86);
   border-bottom-color: #10b981;
   border-radius: 50%;
   display: inline-block;

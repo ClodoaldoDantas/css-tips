@@ -6,8 +6,8 @@
 .spinner {
   width: 48px;
   height: 48px;
-  border: 5px solid rgba(255, 255, 245, 0.859);
-  border-bottom-color: #10b981;
+  border: 5px solid var(--vp-c-text-1);
+  border-bottom-color: var(--vp-c-brand);
   border-radius: 50%;
   display: inline-block;
   animation: rotation 1s linear infinite;

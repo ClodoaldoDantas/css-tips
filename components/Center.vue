@@ -23,7 +23,7 @@ const props = defineProps<Props>()
 .container {
   height: 200px;
   width: 200px;
-  border: 2px dashed #10b981;
+  border: 2px dashed var(--vp-c-brand);
 }
 
 .container.position {
