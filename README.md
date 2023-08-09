@@ -2,6 +2,7 @@
 
 [![Author](https://img.shields.io/badge/author-ClodoaldoDantas-10b981)](https://github.com/ClodoaldoDantas)
 [![MIT License](https://img.shields.io/badge/License-MIT-10b981.svg)](https://choosealicense.com/licenses/mit/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/70eca5d2-e59e-49d4-889c-f747b4213a00/deploy-status)](https://app.netlify.com/sites/css-tips/deploys)
 
 Dicas e exemplos práticos para aprimorar seu design web.
 
