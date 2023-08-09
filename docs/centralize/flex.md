@@ -22,7 +22,7 @@ Veja um exemplo abaixo sobre como centralizar um elemento utilizando **CSS Flexb
 }
 
 .element {
-  font-size: 32px;
+  font-size: 2rem;
 }
 ```
 
