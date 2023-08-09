@@ -14,7 +14,7 @@ hero:
       link: /introduction
     - theme: alt
       text: Veja no Github
-      link: /
+      link: https://github.com/ClodoaldoDantas/css-tips
 
 features:
   - icon: ✨

@@ -1,13 +1,14 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  lang: 'pt-BR',
   title: 'CSS Tips',
   description: 'Dicas e exemplos práticos para aprimorar seu design web.',
   themeConfig: {
     siteTitle: '🔮 CSS Tips',
     nav: [
       { text: 'Introdução', link: '/introduction' },
-      { text: 'Exemplos', link: '/use-cases/avatar' },
+      { text: 'Exemplos', link: '/examples/avatar' },
     ],
     sidebar: [
       {
@@ -31,10 +32,10 @@ export default defineConfig({
         items: [{ text: '::marker', link: '/pseudo-elements/marker' }],
       },
       {
-        text: 'Casos de Uso',
+        text: 'Exemplos',
         items: [
-          { text: 'Avatar', link: '/use-cases/avatar' },
-          { text: 'Spinner', link: '/use-cases/spinner' },
+          { text: 'Avatar', link: '/examples/avatar' },
+          { text: 'Spinner', link: '/examples/spinner' },
         ],
       },
     ],
