@@ -1,7 +1,3 @@
----
-next: Casos de uso
----
-
 # Com CSS Grid
 
 ## Como utilizar ?

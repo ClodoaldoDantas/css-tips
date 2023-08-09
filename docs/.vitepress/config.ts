@@ -23,6 +23,10 @@ export default defineConfig({
         ],
       },
       {
+        text: 'Pseudo Elements',
+        items: [{ text: '::marker', link: '/pseudo-elements/marker' }],
+      },
+      {
         text: 'Casos de Uso',
         items: [
           { text: 'Avatar', link: '/use-cases/avatar' },
