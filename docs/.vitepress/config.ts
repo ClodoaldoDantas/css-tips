@@ -45,5 +45,8 @@ export default defineConfig({
       message: 'Lançado sob a licença MIT.',
       copyright: 'Copyright © 2023 Clodoaldo Dantas',
     },
+    search: {
+      provider: 'local',
+    },
   },
 })
