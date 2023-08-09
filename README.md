@@ -5,7 +5,7 @@
 
 Dicas e exemplos práticos para aprimorar seu design web.
 
-![preview](https://github.com/ClodoaldoDantas/css-tips/assets/32376905/96baa9ba-83d9-4dc5-809f-8353f2b899ae)
+![preview](https://github.com/ClodoaldoDantas/css-tips/assets/32376905/27a12370-e15c-4f62-803d-40657416c665)
 
 ## 🎯 Objetivo
 Nosso principal objetivo é simplificar o seu aprendizado com dicas práticas e eficazes para os desafios que enfrentamos em nosso cotidiano como desenvolvedor front-end.
