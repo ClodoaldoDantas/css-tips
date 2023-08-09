@@ -21,7 +21,7 @@ Usado para selecionar o marcador de um item de lista.
 ## Resultado
 
 <script setup>
-import List from '../../components/List.vue'
+import CustomBulletList from '../../components/CustomBulletList.vue'
 </script>
 
-<List :items="['Apple', 'Banana', 'Grape']" />
+<CustomBulletList :items="['Apple', 'Banana', 'Grape']" />

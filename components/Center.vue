@@ -8,14 +8,7 @@ const props = defineProps<Props>()
 
 <template>
   <div :class="[$style.container, $style[props.method]]">
-    <span
-      :class="[
-        $style.element,
-        { [$style.elementPosition]: props.method === 'position' },
-      ]"
-    >
-      🦄
-    </span>
+    <span :class="$style.element"> 🦄 </span>
   </div>
 </template>
 
@@ -26,8 +19,19 @@ const props = defineProps<Props>()
   border: 2px dashed var(--vp-c-brand);
 }
 
+.element {
+  font-size: 2rem;
+}
+
 .container.position {
   position: relative;
+}
+
+.container.position > .element {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .container.flex {
@@ -39,16 +43,5 @@ const props = defineProps<Props>()
 .container.grid {
   display: grid;
   place-items: center;
-}
-
-.element {
-  font-size: 2rem;
-}
-
-.elementPosition {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 </style>
