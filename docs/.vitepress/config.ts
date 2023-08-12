@@ -29,7 +29,11 @@ export default defineConfig({
       },
       {
         text: 'Pseudo Elements',
-        items: [{ text: '::marker', link: '/pseudo-elements/marker' }],
+        items: [
+          { text: '::marker', link: '/pseudo-elements/marker' },
+          { text: '::before', link: '/pseudo-elements/before' },
+          { text: '::after', link: '/pseudo-elements/after' },
+        ],
       },
       {
         text: 'Exemplos',
