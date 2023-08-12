@@ -1,21 +1,17 @@
 <script setup lang="ts">
 interface Props {
   items: string[]
+  containerClass?: string
+  itemClass?: string
 }
 
 const props = defineProps<Props>()
 </script>
 
 <template>
-  <ul>
-    <li v-for="item in props.items" :key="item" :class="$style['list-item']">
+  <ul :class="props.containerClass">
+    <li v-for="item in props.items" :key="item" :class="props.itemClass">
       {{ item }}
     </li>
   </ul>
 </template>
-
-<style module>
-.list-item::marker {
-  color: #10b981;
-}
-</style>

@@ -21,7 +21,16 @@ Usado para selecionar o marcador de um item de lista.
 ## Resultado
 
 <script setup>
-import CustomBulletList from '../../components/CustomBulletList.vue'
+import UnorderedList from '../../components/UnorderedList.vue'
 </script>
 
-<CustomBulletList :items="['Apple', 'Banana', 'Grape']" />
+<UnorderedList 
+  :items="['Apple', 'Banana', 'Grape']" 
+  :itemClass="$style.item" 
+/>
+
+<style module>
+.item::marker {
+  color: #10b981;
+}
+</style>
