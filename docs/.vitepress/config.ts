@@ -33,6 +33,7 @@ export default defineConfig({
           { text: '::marker', link: '/pseudo-elements/marker' },
           { text: '::before', link: '/pseudo-elements/before' },
           { text: '::after', link: '/pseudo-elements/after' },
+          { text: '::selection', link: '/pseudo-elements/selection' },
         ],
       },
       {
