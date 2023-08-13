@@ -25,7 +25,10 @@ export default defineConfig({
       },
       {
         text: 'Pseudo Classes',
-        items: [{ text: ':has()', link: '/pseudo-classes/has' }],
+        items: [
+          { text: ':has()', link: '/pseudo-classes/has' },
+          { text: ':empty', link: '/pseudo-classes/empty' },
+        ],
       },
       {
         text: 'Pseudo Elements',
