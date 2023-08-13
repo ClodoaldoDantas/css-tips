@@ -75,4 +75,76 @@ export default defineConfig({
     },
     returnToTopLabel: 'Retornar ao topo',
   },
+  head: [
+    [
+      'meta',
+      {
+        property: 'og:type',
+        content: 'website',
+      },
+    ],
+    [
+      'meta',
+      {
+        property: 'og:url',
+        content: 'https://css-tips.netlify.app/',
+      },
+    ],
+    [
+      'meta',
+      {
+        property: 'og:title',
+        content: '🔮 CSS Tips',
+      },
+    ],
+    [
+      'meta',
+      {
+        property: 'og:description',
+        content: 'Dicas e exemplos práticos para aprimorar seu design web.',
+      },
+    ],
+    [
+      'meta',
+      {
+        property: 'og:image',
+        content: 'https://css-tips.netlify.app/images/css-tips.png',
+      },
+    ],
+    [
+      'meta',
+      {
+        property: 'twitter:card',
+        content: 'summary_large_image',
+      },
+    ],
+    [
+      'meta',
+      {
+        property: 'twitter:url',
+        content: 'https://css-tips.netlify.app/',
+      },
+    ],
+    [
+      'meta',
+      {
+        property: 'twitter:title',
+        content: '🔮 CSS Tips',
+      },
+    ],
+    [
+      'meta',
+      {
+        property: 'twitter:description',
+        content: 'Dicas e exemplos práticos para aprimorar seu design web.',
+      },
+    ],
+    [
+      'meta',
+      {
+        property: 'twitter:image',
+        content: 'https://css-tips.netlify.app/images/css-tips.png',
+      },
+    ],
+  ],
 })
