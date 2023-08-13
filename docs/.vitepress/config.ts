@@ -44,6 +44,7 @@ export default defineConfig({
         items: [
           { text: 'Avatar', link: '/examples/avatar' },
           { text: 'Spinner', link: '/examples/spinner' },
+          { text: 'Switch', link: '/examples/switch' },
         ],
       },
     ],
